@@ -10,5 +10,6 @@
         spreadSheetcell::Text(String::from("blue")),
         spreadSheetcell::Float(10.20),
     ];
+    println!("{}",row);
 
 }
