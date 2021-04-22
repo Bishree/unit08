@@ -31,6 +31,8 @@ fn main() {
     let mut scoree = HashMap::new();
     scoree.insert(String::from("blue"), 10);
     scoree.insert(String::from("Yellow"),50);
+
+    scoree.entry(String::from("blue")).or_insert(30);
     println!("{:?}",scoree);
 
 }
